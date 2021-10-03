@@ -1,0 +1,173 @@
+/* globals */
+body {
+    background-color:#222;
+    color:aliceblue;
+    font-family:'Courier New', Courier, monospace;
+    font-size: large;
+    padding: 2%;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+div {
+  padding: 2%;
+}
+
+.mainDiv {
+    text-align: center;
+}
+
+.contact {
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #222;
+}
+
+/* resume button area*/
+.resume_view {
+  padding: 2%;
+  text-align: center;
+}
+
+.resume {
+  text-decoration: none;
+  background-color: #222;
+  color:aliceblue;
+  padding: 1%;
+  border-top: 1px solid aliceblue;
+  border-right: 1px solid aliceblue;
+  border-bottom: 1px solid aliceblue;
+  border-left: 1px solid aliceblue;
+}
+
+/* links */
+a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color:darkviolet;
+}
+
+a {
+  color: aliceblue;
+}
+
+/* navbar */ 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li.left_float {
+    float: left;
+  }
+
+  li.static_float {
+    float: left;
+    display: block;
+    color:#111;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+
+  li.right_float {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+/* background images */
+
+.top_skill {
+  background-image: url("assets/skills_1.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tools {
+  background-image: url("assets/skills_2.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.schoolwork {
+  background-image: url("assets/skills_3.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.top_project {
+  background-image: url("assets/projects_1.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hatefulAI {
+  background-image: url("assets/projects_2.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.yjfc {
+  background-image: url("assets/projects_3.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.recurse {
+  background-image: url("assets/projects_4.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  background-image: url("assets/title.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.misc {
+  background-image: url("assets/misc.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+

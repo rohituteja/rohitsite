@@ -29,8 +29,12 @@
                         <p>As part of this subteam, I focus on ensuring that the club's rocket flies properly, making sure it's both statically and dynamically stable.</p>
                         <p>This is done by using RASAero II to model the rocket and size its 4 fins such that the rocket has a static margin of 1.3 wet, and 1.8 dry, and then running this model through our in-house MatLAB based trajectory simulator, which has 6 degrees of freedom and tells us whether the rocket will be stable or not in flight.</p>
                         <p>I personally worked on a mass vs. fin size analysis, where I determined how shifts in the starting center of gravity would impact fin sizing as a whole, trying to see if we could use the same size fins for a small range of potential masses. This allowed us to inform the Structures team as to how accurately they needed to weigh the vehicle once the time came.</p>
-                        <p> To elaborate, I mainly confirmed that the shift in c.g. from burning fuel wouldn't require a change in fin dimensions, and found that knowing c.g. within 8 inches of actual would ensure that we don't need to change fin dimensions by more than 10%.</p>
-                        <p>I also aided the Launch Structures team with designing an electrical equipment enclosure using SolidWorks.</p>
+                        <p>To elaborate, I mainly confirmed that the shift in c.g. from burning fuel wouldn't require a change in fin dimensions, and found that knowing c.g. within 8 inches of actual would ensure that we don't need to change fin dimensions by more than 10%.</p>
+                        <p>Alongside this, our trajectory simulator takes in aerodecks that hold values corresponding to the aerodynamic properties of our rocket models. We recently 
+                            decided to change the format of our aerodeck, and as a result I recoded our simulator to accept this new format. 
+                        </p>
+                        <p>We also need to interpolate data points for values our aerodecks may not have, so I also updated our interpolation routine to work with the new deck while also making it faster overall.
+                        </p>
                         <p>So far, being on this team has given me knowledge on aerodynamic principles and on stability, and has given me experience in modeling and simulating complex events. As I spend more time with the team, I aim to learn even more about the intricacies of space flight, and to play a larger role in ensuring it can happen successfully.</p>
                 </div>
         </div>

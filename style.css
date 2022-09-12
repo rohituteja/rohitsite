@@ -129,6 +129,14 @@ ul {
   background-size: cover;
 }
 
+.datascience {
+  background-image: url("assets/projects_6.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .hatefulAI {
   background-image: url("assets/projects_2.png");
   background-attachment: fixed;
